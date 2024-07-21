@@ -18,7 +18,7 @@ export default function Timer() {
     const percentage = (timeLeft / (12 * 60 + 15)) * 100; // Total time is 12:15 minutes
 
     return (
-        <aside className="w-full bg-white p-4 border rounded-lg shadow-sm">
+        <aside className="w-full bg-white p-4 border rounded-lg shadow-sm sticky top-4">
             <div className="text-center mb-4">
                 <div className="text-3xl font-bold mb-2">Remaining Time</div>
                 <div className="w-52 mx-auto mb-2">
