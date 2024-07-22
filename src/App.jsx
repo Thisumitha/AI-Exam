@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeW from './Home/HomeWrite';
 import WriteAndTimePage from './pages/WriteAndTimePage';
 import SpeakAndTimePage from './pages/SpeakAndTimePage';
+import ReadAndTimePage from './pages/ReadAndTimePage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<WriteAndTimePage/>} />
           <Route path="/speak" element={<SpeakAndTimePage/>} />
+          <Route path="/read" element={<ReadAndTimePage/>}/>
         </Routes>
       </BrowserRouter>
     </>
